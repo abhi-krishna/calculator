@@ -63,7 +63,7 @@
 
       
     function add(){
-        // console.log("Surya");
+       
         var getnum1 = parseInt(document.getElementById("num1").value);
             var getnum2 = parseInt(document.getElementById("num2").value);
 
