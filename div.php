@@ -70,7 +70,7 @@
           
             
             if(Number.isInteger(getnum1 && getnum2)){
-              res=getnum1+getnum2
+              res=getnum1/getnum2
               document.getElementById("div").value=res;
             }
             else{
