@@ -11,16 +11,16 @@
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Addition</a>
+            <a class="nav-link" href="index.php">Addition</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sub.html">Subtraction</a>
+            <a class="nav-link" href="sub.php">Subtraction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mul.html">Multiplication</a>
+            <a class="nav-link" href="mul.php">Multiplication</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="div.html">Division</a>
+            <a class="nav-link" href="div.php">Division</a>
           </li>
         </ul>
       </nav>
@@ -40,11 +40,11 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button onclick="add()" class="btn btn-success btn-lg btn-block" >DIVIDE</button></td>
+                        <td><button onclick="add()" class="btn btn-success btn-lg btn-block" >MULTIPLY</button></td>
                     </tr>
                     <tr>
                         <td>Result</td>
-                        <td><input type="text" class="form-control" placeholder="Division" id="div"></td>
+                        <td><input type="text" class="form-control" placeholder="multiply" id="mul"></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -71,7 +71,7 @@
             
             if(Number.isInteger(getnum1 && getnum2)){
               res=getnum1+getnum2
-              document.getElementById("div").value=res;
+              document.getElementById("mul").value=res;
             }
             else{
               alert("Enter a number")
@@ -82,7 +82,7 @@
     function clr() {
             document.getElementById("num1").value=''
             document.getElementById("num2").value=''
-            document.getElementById("div").value=''
+            document.getElementById("mul").value=''
         }
 
     </script>
